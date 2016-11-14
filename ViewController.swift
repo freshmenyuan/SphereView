@@ -2,8 +2,8 @@
 //  ViewController.swift
 //  PenguinCam
 //
-//  Created by Michael Briscoe on 1/8/16.
-//  Copyright © 2016 Razeware LLC. All rights reserved.
+//  Created by peidong yuan on 01/09/2016.
+//  Copyright © 2016 peidong yuan. All rights reserved.
 //
 
 import UIKit

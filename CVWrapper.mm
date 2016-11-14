@@ -2,8 +2,8 @@
 //  CVWrapper.m
 //  CVOpenTemplate
 //
-//  Created by Washe on 02/01/2013.
-//  Copyright (c) 2013 foundry. All rights reserved.
+//  Created by peidong yuan on 01/09/2016.
+//  Copyright © 2016 peidong yuan. All rights reserved.
 //
 
 #import "CVWrapper.h"

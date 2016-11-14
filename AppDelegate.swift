@@ -2,10 +2,9 @@
 //  AppDelegate.swift
 //  SwiftStitch
 //
-//  Created by Foundry on 04/06/2014.
-//  Copyright (c) 2014 Foundry. All rights reserved.
+//  Created by peidong yuan on 01/09/2016.
+//  Copyright © 2016 peidong yuan. All rights reserved.
 //
-
 import UIKit
 
 @UIApplicationMain

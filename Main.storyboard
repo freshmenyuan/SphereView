@@ -1,9 +1,13 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11542" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -20,7 +24,7 @@
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ijd-GN-onk">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2as-38-3vm">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="48"/>
@@ -54,11 +58,11 @@
                                             <constraint firstAttribute="height" constant="21" id="ljz-mZ-qaz"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="12"/>
-                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                 </subviews>
-                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.29999999999999999" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.29999999999999999" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstItem="BbQ-Dp-V8d" firstAttribute="leading" secondItem="2as-38-3vm" secondAttribute="leading" constant="42" id="5Op-3P-2SX"/>
                                     <constraint firstItem="KTN-ex-6oM" firstAttribute="top" secondItem="2as-38-3vm" secondAttribute="top" id="8es-fp-mXe"/>
@@ -90,7 +94,7 @@
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IHD-ne-SDa">
                                         <rect key="frame" x="56" y="25" width="45" height="45"/>
-                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="45" id="1Lp-Et-EBa"/>
                                             <constraint firstAttribute="height" constant="45" id="o4I-w9-jQM"/>
@@ -107,7 +111,7 @@
                                         </connections>
                                     </button>
                                 </subviews>
-                                <color key="backgroundColor" white="0.0" alpha="0.29792774822695034" colorSpace="calibratedWhite"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.29792774822695034" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstItem="IHD-ne-SDa" firstAttribute="top" secondItem="LcX-cs-rQO" secondAttribute="top" constant="25" id="CWs-KY-Mbh"/>
                                     <constraint firstItem="IHD-ne-SDa" firstAttribute="leading" secondItem="LcX-cs-rQO" secondAttribute="leading" constant="36" id="Eas-bD-nxK"/>
@@ -133,7 +137,7 @@
                                 </variation>
                             </view>
                         </subviews>
-                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstAttribute="trailing" secondItem="ijd-GN-onk" secondAttribute="trailing" id="7Kq-VZ-TK7"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="LcX-cs-rQO" secondAttribute="bottom" id="Gh6-nZ-RFp"/>
@@ -150,7 +154,6 @@
                     <nil key="simulatedStatusBarMetrics"/>
                     <nil key="simulatedTopBarMetrics"/>
                     <nil key="simulatedBottomBarMetrics"/>
-                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                     <connections>
                         <outlet property="camPreview" destination="ijd-GN-onk" id="wFB-7a-XjI"/>
                         <outlet property="flashLabel" destination="BbQ-Dp-V8d" id="XRL-ht-tbw"/>
@@ -183,7 +186,7 @@
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="kSU-Sf-o5d" firstAttribute="top" secondItem="GAY-M7-kMA" secondAttribute="bottom" id="9ZB-Rb-xMz"/>
                             <constraint firstItem="kSU-Sf-o5d" firstAttribute="leading" secondItem="bq3-2m-Ldb" secondAttribute="leading" id="a4z-VU-mrJ"/>
@@ -197,7 +200,6 @@
                     </view>
                     <nil key="simulatedStatusBarMetrics"/>
                     <nil key="simulatedTopBarMetrics"/>
-                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                     <connections>
                         <outlet property="quickLookImage" destination="rbW-j5-wvO" id="bf1-J7-4Nz"/>
                     </connections>

@@ -2,16 +2,9 @@
 //  UIImage+Rotate.m
 //  Foundry
 //
-//  Created by jonathan on 21/09/2013.
-//  Copyright (c) 2013 Foundry. All rights reserved.
+//  Created by peidong yuan on 01/09/2016.
+//  Copyright © 2016 peidong yuan. All rights reserved.
 //
-//see also http://blog.logichigh.com/2008/06/05/uiimage-fix/
-//see also http://blog.9mmedia.com/?p=932
-//see also http://stackoverflow.com/questions/14484816/force-uiimagepickercontroller-to-take-photo-in-portrait-orientation-dimensions-i/14491293#14491293
-//see also http://stackoverflow.com/questions/13971491/captured-photo-automatically-rotated-during-upload-in-ios-6-0-or-iphone/13974815#13974815
-
-//update 2015: `rotateToImageOrientation` code is taken verbatim from this SO answer
-//http://stackoverflow.com/a/5427890/1375695
 
 #import "UIImage+Rotate.h"
 
